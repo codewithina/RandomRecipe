@@ -9,11 +9,21 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var randomRecipeButton: UIButton!
+    @IBOutlet weak var addRecipeButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
+    
+    
+    
+    @IBAction func addRecipe(_ sender: Any) {
+    }
+    
+    @IBAction func displayRandomRecipe(_ sender: Any) {
+    }
+    
 }
 
