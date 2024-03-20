@@ -23,6 +23,9 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Random recipe"/>
+                                <connections>
+                                    <action selector="displayRandomRecipe:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wGd-lI-H5D"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z8T-tQ-2ph">
                                 <rect key="frame" x="87" y="316" width="218" height="110"/>
@@ -31,6 +34,10 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Add recipe"/>
+                                <connections>
+                                    <action selector="addRecipe:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Aw-N9-NN4"/>
+                                    <action selector="addRecipeAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w9w-SQ-3y3"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
