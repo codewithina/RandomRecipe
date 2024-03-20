@@ -13,6 +13,8 @@
 		A9454CFD2BAAF93800C6E44E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A9454CFC2BAAF93800C6E44E /* Base */; };
 		A9454CFF2BAAF93900C6E44E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9454CFE2BAAF93900C6E44E /* Assets.xcassets */; };
 		A9454D022BAAF93900C6E44E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A9454D012BAAF93900C6E44E /* Base */; };
+		A9454D0A2BAB234600C6E44E /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9454D092BAB234600C6E44E /* Recipe.swift */; };
+		A9454D0C2BAB368B00C6E44E /* RecipeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9454D0B2BAB368B00C6E44E /* RecipeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A9454CFE2BAAF93900C6E44E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9454D012BAAF93900C6E44E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9454D032BAAF93900C6E44E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9454D092BAB234600C6E44E /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		A9454D0B2BAB368B00C6E44E /* RecipeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				A9454CFE2BAAF93900C6E44E /* Assets.xcassets */,
 				A9454D002BAAF93900C6E44E /* LaunchScreen.storyboard */,
 				A9454D032BAAF93900C6E44E /* Info.plist */,
+				A9454D092BAB234600C6E44E /* Recipe.swift */,
+				A9454D0B2BAB368B00C6E44E /* RecipeController.swift */,
 			);
 			path = RandomRecipe;
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 				A9454CFA2BAAF93800C6E44E /* ViewController.swift in Sources */,
 				A9454CF62BAAF93800C6E44E /* AppDelegate.swift in Sources */,
 				A9454CF82BAAF93800C6E44E /* SceneDelegate.swift in Sources */,
+				A9454D0C2BAB368B00C6E44E /* RecipeController.swift in Sources */,
+				A9454D0A2BAB234600C6E44E /* Recipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
