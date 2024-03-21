@@ -7,11 +7,14 @@
 
 import Foundation
 
-class RecipeController {
+class RecipeBook {
     var recipes: [Recipe] = []
+    
+    init(recipes: [Recipe]) {
+            self.recipes = recipes
+        }
     
     func addRecipe(recipe: Recipe) {
         recipes.append(recipe)
     }
-    
 }
